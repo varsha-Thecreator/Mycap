@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+	//variable declarations
+	int a,b;
+	
+	//Input values
+	printf("Enter the value of a: ");
+	scanf("%d",&a);
+	printf("Enter the value of b: ");
+	scanf("%d",&b);	
+	
+	//Numbers before swapping
+	printf("Before swapping is a: %d, b: %d\n",a,b);
+	
+	//swapping numbers
+	a = a+b;
+	b = a-b;	
+	a = a-b; 	
+	
+	//Numbers after swapping 
+	printf("After swapping is  a: %d, b: %d\n",a,b);
+
+	return 0;
+}
