@@ -1,0 +1,31 @@
+#include<stdio.h>
+main()
+{
+    //pizza 239,burger 129, pasta 179, frenchfries 99, sandwich 149//
+    
+    char choice;
+    printf("pick a number from 1 to 5: ");
+    scanf("%c",&choice);
+    switch(choice) {
+      case '1' :
+         printf("You chose Frenchfries\n""It is priced 99/-" );
+         break;
+      case '2' :
+            printf("you chose burger\n""It is priced 129/-");
+            break;
+      case '3' :
+         printf("you chose sandwich\n""It is priced 149/-" );
+         break;
+      case '4' :
+         printf("You chose Pasta\n""It is priced 179/-" );
+         break;
+      case '5' :
+         printf("You chose Pizza\n""It is priced 239/-" );
+         break;
+      default:
+         printf(" Not Available ");
+   }
+   
+   return 0;
+}
+    
